@@ -21,7 +21,12 @@
 // export const auth = getAuth(app);
 // export const db = getFirestore(app);
 
-export const initializeBackend = async () => {
-  // Initialize Firebase or Supabase
-  console.log('Backend initialized');
+export const initializeBackend = async (): Promise<void> => {
+  try {
+    // Initialize Firebase or Supabase
+    console.log('✅ Backend initialized');
+  } catch (error) {
+    console.error('❌ Backend initialization failed:', error);
+    throw error;
+  }
 };

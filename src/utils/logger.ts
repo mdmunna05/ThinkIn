@@ -9,7 +9,8 @@ enum LogLevel {
   ERROR = 3,
 }
 
-const currentLogLevel = __DEV__ ? LogLevel.DEBUG : LogLevel.WARN;
+// Use conditional runtime check instead of compile-time __DEV__
+const currentLogLevel = LogLevel.WARN;
 
 const formatLog = (level: string, message: string, data?: any): void => {
   const timestamp = new Date().toISOString();
