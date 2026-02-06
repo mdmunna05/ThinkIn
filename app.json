@@ -5,15 +5,6 @@
     "version": "0.1.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
-    "ios": {
-      "supportsTabletMode": true
-    },
-    "android": {
-      "adaptiveIcon": {
-        "backgroundColor": "#0a0a0a"
-      },
-      "package": "com.munna05.thinkin"
-    },
     "extra": {
       "eas": {
         "projectId": "55184ff9-8f7c-4475-a525-24bc82c651fe"
