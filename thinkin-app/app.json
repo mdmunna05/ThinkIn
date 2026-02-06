@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "ThinkIn",
+    "slug": "thinkin",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTabletMode": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a"
+      }
+    }
+  }
+}
