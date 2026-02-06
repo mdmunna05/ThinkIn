@@ -38,3 +38,8 @@ coverage/
 # Logs
 logs/
 *.log
+# Android build artifacts
+android/app/debug.keystore
+android/gradle/wrapper/gradle-wrapper.jar
+*.keystore
+*.jks
